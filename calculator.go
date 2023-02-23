@@ -33,18 +33,18 @@ func menu(a, b float64) string {
 
 		case "1":
 			fmt.Println("Addition Function")
-			fmt.Println(Addition(int(a), int(b)))
+			fmt.Println("ANSWER ----------------->", Addition(int(a), int(b)))
 
 		case "2":
 			fmt.Println("Subtraction Function")
-			fmt.Println(Subtraction(int(a), int(b)))
+			fmt.Println("ANSWER ----------------->", Subtraction(int(a), int(b)))
 
 		case "3":
 			fmt.Println("Multiplication Function")
-			fmt.Println(Multiplication(a, b))
+			fmt.Println("ANSWER ----------------->", Multiplication(a, b))
 		case "4":
 			fmt.Println("Division Function")
-			fmt.Println(Division(a, b))
+			fmt.Println("ANSWER ----------------->", Division(a, b))
 		case "5":
 			fmt.Println("Enter a number: ")
 			fmt.Scan(&a)
